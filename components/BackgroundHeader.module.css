@@ -1,0 +1,20 @@
+.backgroundHeader {
+  background: url(/stock-background.jpg);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 90vh;
+  z-index: 0;
+}
+
+.backgroundHeader::after {
+  background: rgba(1, 28, 87, 0.7);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 90vh;
+  z-index: 1;
+  content: ' ';
+}
