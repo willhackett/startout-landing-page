@@ -1,4 +1,8 @@
-const Logo = ({ fill = '#FFFFFF' }) => (
+interface LogoProps {
+  fill?: string;
+}
+
+const Logo = ({ fill = '#FFFFFF' }: LogoProps) => (
   <svg
     viewBox="0 0 122 23"
     version="1.1"

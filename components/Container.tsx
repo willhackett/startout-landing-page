@@ -1,6 +1,10 @@
 import styles from './Container.module.css';
 
-const Container = ({ children }) => (
+interface ContainerProps {
+  children: React.ReactNode;
+}
+
+const Container = ({ children }: ContainerProps) => (
   <div className={styles.container}>{children}</div>
 );
 
