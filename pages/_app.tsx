@@ -5,6 +5,8 @@ import type { AppProps } from 'next/app';
 import '@vetixy/circular-std';
 import '@fontsource/karla';
 
+import '../styles/globals.css';
+
 const theme = Themes.createFromLight({
   type: 'main',
   palette: {
