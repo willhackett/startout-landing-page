@@ -20,4 +20,4 @@ const Logo = ({ fill = '#FFFFFF' }: LogoProps) => (
   </svg>
 );
 
-export default Logo;
+export { Logo };

@@ -1,0 +1,64 @@
+.Section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  padding: 15rem auto;
+  position: relative;
+}
+
+.Content {
+  max-width: 90%;
+  width: 70rem;
+  z-index: 1;
+  margin: 5rem auto;
+}
+
+.ImageOverlay {
+  background: rgba(13, 49, 134, 0.73);
+  z-index: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+.Centered {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.yellow {
+  background: rgb(248, 229, 154);
+  color: rgb(65, 72, 88);
+}
+
+.green {
+  background: rgb(106, 204, 151);
+  color: white;
+}
+
+.gray {
+  background: rgba(64, 64, 64);
+  color: white;
+}
+
+.red {
+  background: rgb(235, 99, 99);
+  color: white;
+}
+
+.blue {
+  background: rgb(63, 94, 167);
+  color: white;
+}
+
+.image {
+  background-image: url('/stock-background.jpg');
+  background-size: cover;
+  background-position: center;
+}

@@ -5,7 +5,6 @@ import type { AppProps } from 'next/app';
 import '@vetixy/circular-std';
 import '@fontsource/karla';
 
-import BackgroundHeader from '../components/BackgroundHeader';
 import Container from '../components/Container';
 import Logo from '../components/Logo';
 
@@ -37,8 +36,11 @@ function MyApp({ Component, pageProps }: AppProps) {
 
       <CssBaseline />
 
-      <BackgroundHeader />
-      <Page size="medium">
+      <main>
+        <Component {...pageProps} />
+      </main>
+
+      {/* <Page size="medium">
         <Container>
           <Page.Content>
             <header>
@@ -48,12 +50,9 @@ function MyApp({ Component, pageProps }: AppProps) {
                 </a>
               </Link>
             </header>
-            <main>
-              <Component {...pageProps} />
-            </main>
           </Page.Content>
         </Container>
-      </Page>
+      </Page> */}
     </GeistProvider>
   );
 }

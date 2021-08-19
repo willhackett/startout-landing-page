@@ -14,3 +14,11 @@ a {
 * {
   box-sizing: border-box;
 }
+
+section {
+  height: 100vh;
+}
+
+.mt {
+  margin-top: 3rem initial;
+}

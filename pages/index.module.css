@@ -1,59 +1,37 @@
-.heroText {
-  color: #fff !important;
-  font-size: 1.5rem !important;
-  line-height: 1.5 !important;
+.introduction {
+  margin: 4rem auto;
 }
 
-.heroSection {
-  margin: 4rem 0;
+.introduction h1 {
+  line-height: 1.4;
+  font-weight: 600;
+  color: white;
 }
 
-.rightAlign {
-  position: absolute;
-  right: 0;
-}
-
-.whiteText {
-  color: #fff;
-}
-
-.whiteText:hover {
-  text-decoration: underline;
-}
-
-.announcementLinkCard {
-  padding: 8pt 12pt !important;
-}
-
-.clickable {
-  cursor: pointer;
-}
-
-.clickable:hover a {
-  text-decoration: underline;
-}
-
-.arrowRight {
-  display: inline-flex;
+.introduction a {
+  color: white;
+  display: flex;
   align-items: center;
-  justify-content: center;
+}
+
+.introduction a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  width: 15rem;
+  display: block;
+}
+
+.mt {
+  margin: 4rem auto;
 }
 
 .body {
   background: white;
-  border-radius: 15px;
-  padding: 2rem 4rem;
-  margin-top: 4rem;
-}
-
-.body::after {
-  content: ' ';
-  left: -2rem;
-  top: -2rem;
-  right: -2rem;
-  height: 100vh;
-  background: white;
-  border-radius: 25px;
+  color: black;
+  padding: 4rem;
+  border-radius: 8px;
 }
 
 /* SM */
