@@ -5,12 +5,6 @@ import type { AppProps } from 'next/app';
 import '@vetixy/circular-std';
 import '@fontsource/karla';
 
-import Container from '../components/Container';
-import Logo from '../components/Logo';
-
-import styles from './_app.module.css';
-import Link from 'next/link';
-
 const theme = Themes.createFromLight({
   type: 'main',
   palette: {
@@ -39,20 +33,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       <main>
         <Component {...pageProps} />
       </main>
-
-      {/* <Page size="medium">
-        <Container>
-          <Page.Content>
-            <header>
-              <Link href="/">
-                <a className={styles.logo}>
-                  <Logo />
-                </a>
-              </Link>
-            </header>
-          </Page.Content>
-        </Container>
-      </Page> */}
     </GeistProvider>
   );
 }
