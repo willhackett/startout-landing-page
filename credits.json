@@ -1,12 +1,41 @@
 {
   "board": [
-    { "name": "Adam Dent", "position": "Board Member", "location": "Sydney" },
+    {
+      "name": "Adam Dent",
+      "position": "Co-founder / Executive Director",
+      "location": "Sydney"
+    },
     {
       "name": "Brendan White",
-      "position": "Managing Director",
+      "position": "Co-founder / Executive Director",
       "location": "Perth"
     },
-    { "name": "Stephen Groves", "position": "Director", "location": "Sydney" }
+    {
+      "name": "David White",
+      "position": "Founding Non-executive Director, Chair",
+      "location": "Melbourne"
+    },
+    {
+      "name": "Helen Cester",
+      "position": "Founding Non-executive Director, Deputy Chair, Chair",
+      "location": "Melbourne"
+    },
+    {
+      "name": "David James",
+      "position": "Non-executive Director",
+      "location": "Melbourne"
+    },
+    {
+      "name": "Jodie",
+      "position": "Non-executive Director",
+      "location": "Sydney"
+    },
+    { "name": "Noha Habib", "position": "Board Member", "location": "Sydney" },
+    {
+      "name": "Stephen Groves",
+      "position": "Non-executive Director, Deputy Chair",
+      "location": "Sydney"
+    }
   ],
   "volunteers": [
     {
@@ -58,12 +87,65 @@
     }
   ],
   "mentors": [
-    { "name": "Alida", "location": "Melbourne" },
+    { "name": "Aaron B", "location": "Melbourne" },
+    { "name": "Adam D", "location": "Sydney" },
+    { "name": "Alex R", "location": "Melbourne" },
+    { "name": "Alida S", "location": "Melbourne" },
     { "name": "Ashvin Nursing", "location": "Melbourne" },
+    { "name": "Bonnie Doyle", "location": "Canberra" },
+    { "name": "Brad K", "location": "Melbourne" },
+    { "name": "Brendan W", "location": "Melbourne" },
+    { "name": "Caleb H", "location": "Melbourne" },
+    { "name": "Cameron D", "location": "Sydney" },
+    { "name": "Ciara H", "location": "Melbourne" },
+    { "name": "Dameian S", "location": "Sydney" },
+    { "name": "David B", "location": "Melbourne" },
+    { "name": "David C", "location": "Melbourne" },
+    { "name": "David F", "location": "Sydney" },
+    { "name": "David J", "location": "Sydney" },
+    { "name": "David M", "location": "Sydney" },
+    { "name": "Erin C", "location": "Melbourne" },
+    { "name": "Finn S", "location": "Sydney" },
+    { "name": "Francisco L", "location": "Sydney" },
     { "name": "Frank Guzman", "location": "Melbourne" },
+    { "name": "Franky N", "location": "Melbourne" },
+    { "name": "Hannah C", "location": "Melbourne" },
+    { "name": "Ian W", "location": "Sydney" },
+    { "name": "Jack S", "location": "Melbourne" },
     { "name": "Jack", "location": "Melbourne" },
-    { "name": "Yannik", "location": "Melbourne" },
+    { "name": "James D", "location": "Sydney" },
+    { "name": "Jane M", "location": "Sydney" },
+    { "name": "Jeremy T", "location": "Sydney" },
+    { "name": "Jessica C", "location": "Melbourne" },
+    { "name": "Jonathan S", "location": "Melbourne" },
     { "name": "Kenan Aldemir", "location": "Sydney" },
-    { "name": "Bonnie Doyle", "location": "Canberra" }
+    { "name": "Kinga P", "location": "Sydney" },
+    { "name": "Lachlan P", "location": "Sydney" },
+    { "name": "Lukah B", "location": "Sydney" },
+    { "name": "Mark T", "location": "Sydney" },
+    { "name": "Mathew B", "location": "Melbourne" },
+    { "name": "Mathew F", "location": "Sydney" },
+    { "name": "Matilda H", "location": "Melbourne" },
+    { "name": "Matt P", "location": "Sydney" },
+    { "name": "Matteo S", "location": "Melbourne" },
+    { "name": "Melinda J", "location": "Melbourne" },
+    { "name": "Melissa O", "location": "Sydney" },
+    { "name": "Monique R", "location": "Sydney" },
+    { "name": "Nicholas Z", "location": "Melbourne" },
+    { "name": "Oliver L", "location": "Sydney" },
+    { "name": "Ruby R", "location": "Sydney" },
+    { "name": "Rumah K", "location": "Sydney" },
+    { "name": "Sam K", "location": "Sydney" },
+    { "name": "Samantha I", "location": "Sydney" },
+    { "name": "Sarah L", "location": "Melbourne" },
+    { "name": "Scott N", "location": "Sydney" },
+    { "name": "Shannon W", "location": "Melbourne" },
+    { "name": "Steve L", "location": "Sydney" },
+    { "name": "Tessa P", "location": "Melbourne" },
+    { "name": "Thomas M", "location": "Sydney" },
+    { "name": "Tim H", "location": "Sydney" },
+    { "name": "Timothy S", "location": "Melbourne" },
+    { "name": "Tomer H", "location": "Sydney" },
+    { "name": "Yannik S", "location": "Melbourne" }
   ]
 }

@@ -17,9 +17,11 @@ const Names = ({ names = [] }: NamesProps) => {
       {names.map((person) => (
         <div key={person.name} className={s.Name}>
           <h3>{person.name}</h3>
-          {[person.company, person.position, person.location]
-            .filter(Boolean)
-            .join(' / ')}
+          <p>
+            {[person.company, person.position, person.location]
+              .filter(Boolean)
+              .join(' / ')}
+          </p>
         </div>
       ))}
     </div>

@@ -8,6 +8,15 @@
   width: 100%;
 }
 
+.Name h3 {
+  margin-bottom: 0;
+}
+
+.Name p {
+  margin: 0.25rem 0;
+  margin-bottom: 1.5rem;
+}
+
 /* MD */
 @media (min-width: 730px) {
   .Name {
