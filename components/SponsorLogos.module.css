@@ -1,0 +1,33 @@
+.SponsorLogos {
+  display: flex;
+  gap: 4;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 5rem auto;
+}
+
+.SponsorLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 50%;
+  max-height: 2rem;
+}
+
+.SponsorLogo img {
+  max-width: 90%;
+  max-height: 6rem;
+}
+
+/* MD */
+@media (min-width: 730px) {
+  .SponsorLogo {
+    max-width: 33%;
+  }
+}
+/* LG */
+@media (min-width: 1280px) {
+  .SponsorLogo {
+    max-width: 20%;
+  }
+}

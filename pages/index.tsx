@@ -1,11 +1,9 @@
 /* eslint-disable @next/next/link-passhref */
-import cx from 'classnames';
 import Link from 'next/link';
 import ArrowRight from '@geist-ui/react-icons/chevronRight';
-import { Card } from '@geist-ui/react';
 import orderBy from 'lodash.orderby';
 
-import { Section, Logo, Names, Person } from '../components';
+import { Section, Logo, Names, Person, SponsorLogos } from '../components';
 
 import s from './index.module.css';
 
@@ -60,6 +58,7 @@ export default function Home({ volunteers, mentors, board }: HomeProps) {
       <Section background="red" nextTarget="board">
         <h1>Thanks, to our 1000+ sponsors</h1>
         <h3 className={s.mb}>Your ongoing support has made kept us going.</h3>
+        <SponsorLogos />
       </Section>
       <a id="board" />
       <Section background="gray">
