@@ -48,7 +48,7 @@ export default function Home({ volunteers, mentors, board }: HomeProps) {
       </Section>
       <a id="volunteers" />
       <Section background="green" nextTarget="rolemodels">
-        <h1>Thanks, to our volunteers</h1>
+        <h1>Thanks, to our core team</h1>
         <h3 className={s.mb}>
           The managers, designers and engineers that made StartOut work.
         </h3>
