@@ -57,7 +57,8 @@ a.whiteText:hover {
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 .Footer {
@@ -114,6 +115,10 @@ a.whiteText:hover {
   }
   .FooterRight {
     text-align: right;
+  }
+  .header {
+    align-items: center;
+    flex-direction: row;
   }
 }
 /* LG */
