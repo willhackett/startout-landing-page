@@ -2,38 +2,38 @@
   "board": [
     {
       "name": "Adam Dent",
-      "position": "Co-founder / Executive Director",
+      "position": "Co-founder",
       "location": "Sydney"
     },
     {
       "name": "Brendan White",
-      "position": "Co-founder / Executive Director",
+      "position": "Co-founder",
       "location": "Perth"
     },
     {
       "name": "David White",
-      "position": "Founding Non-executive Director, Chair",
+      "position": "Founding board member / Chair",
       "location": "Melbourne"
     },
     {
       "name": "Helen Cester",
-      "position": "Founding Non-executive Director, Deputy Chair, Chair",
+      "position": "Founding board member / Chair",
       "location": "Melbourne"
     },
     {
       "name": "David James",
-      "position": "Non-executive Director",
+      "position": "Board Member",
       "location": "Melbourne"
     },
     {
       "name": "Jodylee Bartal",
-      "position": "Non-executive Director",
+      "position": "Board Member",
       "location": "Sydney"
     },
     { "name": "Noha Habib", "position": "Board Member", "location": "Sydney" },
     {
       "name": "Stephen Groves",
-      "position": "Non-executive Director, Deputy Chair",
+      "position": "Board Member",
       "location": "Sydney"
     }
   ],

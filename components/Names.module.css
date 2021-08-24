@@ -8,6 +8,10 @@
   width: 100%;
 }
 
+.Name.Mentor {
+  width: 50%;
+}
+
 .Name h3 {
   margin-bottom: 0;
 }
@@ -22,10 +26,16 @@
   .Name {
     width: 50%;
   }
+  .Name.Mentor {
+    width: 33%;
+  }
 }
 /* LG */
 @media (min-width: 1280px) {
   .Name {
     width: 33%;
+  }
+  .Name.Mentor {
+    width: 25%;
   }
 }

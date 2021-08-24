@@ -43,20 +43,13 @@ export const SponsorLogos = () => (
   <div className={s.SponsorLogos}>
     <a
       className={s.SponsorLogo}
-      href="https://www.pwc.com.au/"
+      href="https://www.australianunity.com.au/"
       target="_blank"
       rel="noopener noreferrer"
     >
-      <img src="/pwc.webp" alt="PwC" />
+      <img src="/australian-unity.webp" alt="Australian Unity" />
     </a>
-    <a
-      className={s.SponsorLogo}
-      href="https://www.seek.com.au/"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <Seek />
-    </a>
+
     <a
       className={s.SponsorLogo}
       href="https://www.plural.com.au/"
@@ -75,11 +68,19 @@ export const SponsorLogos = () => (
     </a>
     <a
       className={s.SponsorLogo}
-      href="https://www.australianunity.com.au/"
+      href="https://www.pwc.com.au/"
       target="_blank"
       rel="noopener noreferrer"
     >
-      <img src="/australian-unity.webp" alt="Australian Unity" />
+      <img src="/pwc.webp" alt="PwC" />
+    </a>
+    <a
+      className={s.SponsorLogo}
+      href="https://www.seek.com.au/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <Seek />
     </a>
   </div>
 );

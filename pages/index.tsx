@@ -60,7 +60,7 @@ export default function Home({ volunteers, mentors, board }: HomeProps) {
         <h3 className={s.mb}>
           The people who worked hard to support those in need.
         </h3>
-        <Names names={mentors} />
+        <Names names={mentors} mentors />
       </Section>
       <a id="sponsors" />
       <Section background="red" nextTarget="board">
@@ -81,10 +81,26 @@ export default function Home({ volunteers, mentors, board }: HomeProps) {
         <Names names={board} />
       </Section>
       <Section background="blue" small>
-        <p>
-          Copyright © StartOut Australia. <br />
-          Made with ❤︎ in Australia.
-        </p>
+        <div className={s.Footer}>
+          <div>
+            <p>
+              Copyright © StartOut Australia. <br />
+              Made with ❤︎ in Australia.
+            </p>
+          </div>
+          <div className={s.FooterRight}>
+            <p>
+              Looking for support or to help a good cause?
+              <br />
+              <a
+                className={s.whiteText}
+                href="https://www.headspace.org.au/eheadspace/?ref=startout"
+              >
+                Check out eHeadspace &mdash; a place do just that
+              </a>
+            </p>
+          </div>
+        </div>
       </Section>
     </>
   );
