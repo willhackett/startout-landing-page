@@ -9,6 +9,11 @@
   position: relative;
 }
 
+.Section.small {
+  min-height: initial !important;
+  padding: 3rem auto;
+}
+
 .Content {
   max-width: 90%;
   width: 70rem;

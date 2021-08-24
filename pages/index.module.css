@@ -27,6 +27,10 @@
   margin: 4rem auto;
 }
 
+.mb {
+  margin-bottom: 2rem;
+}
+
 .body {
   background: white;
   color: black;

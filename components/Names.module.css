@@ -1,0 +1,22 @@
+.Names {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4;
+}
+
+.Name {
+  width: 100%;
+}
+
+/* MD */
+@media (min-width: 730px) {
+  .Name {
+    width: 50%;
+  }
+}
+/* LG */
+@media (min-width: 1280px) {
+  .Name {
+    width: 33%;
+  }
+}

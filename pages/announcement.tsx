@@ -81,17 +81,18 @@ const Announcement = () => (
         qheadspace will be able to continue to run more programs and further
         support our community. StartOut will direct our remaining funds to
         support this great program and will recommend qheadspace as a place for
-        our community and our fantastic volunteers to seek support.{' '}
+        our community and our fantastic volunteers to seek support and
+        volunteering opportunities.
       </p>
       <p>
         The program runs regular online group chat sessions, with qualified peer
         moderators and is overseen by mental health clinicians, and can feed
-        into 1 on 1 counselling services through eheadspace, . Examples of
-        support provided by qheadspace can be on anything and can support on
-        things ranging from navigating relationships, to dealing with family
-        conflict, to how to be a trans ally and more. Over 250 young DSG people
-        each month already find a supportive community in qheadspeace and we are
-        excited to see the program flourish and reach even more people.{' '}
+        into 1 on 1 counselling services through eheadspace. Examples of support
+        provided by qheadspace include anything from navigating relationships,
+        to dealing with family conflict, to how to be a trans ally and more.
+        Over 250 young DSG people each month already find a supportive community
+        in qheadspeace and we are excited to see the program flourish and reach
+        even more people.{' '}
       </p>
       <p>
         qheadspace chats take place every Tuesday at 6:15pm (AEST), and all

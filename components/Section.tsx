@@ -10,6 +10,7 @@ interface SectionProps {
   children: ReactNode;
   background: 'image' | 'grey' | 'blue' | 'red' | 'green' | 'yellow' | 'gray';
   nextTarget?: string;
+  small?: boolean;
 }
 
 const smoothlyScroll =
@@ -18,7 +19,7 @@ const smoothlyScroll =
     scroller.scrollTo(target, { duration: 500, smooth: true });
   };
 
-const Section = ({ children, background, nextTarget }: SectionProps) => {
+const Section = ({ children, background, nextTarget, small }: SectionProps) => {
   const classes = cx(s.Section, {
     [s.image]: 'image' === background,
     [s.gray]: 'gray' === background,
@@ -26,6 +27,7 @@ const Section = ({ children, background, nextTarget }: SectionProps) => {
     [s.red]: 'red' === background,
     [s.green]: 'green' === background,
     [s.yellow]: 'yellow' === background,
+    [s.small]: small,
   });
 
   return (
@@ -34,7 +36,12 @@ const Section = ({ children, background, nextTarget }: SectionProps) => {
       <div className={s.Content}>
         {children}
         <div className={s.Centered}>
-          {nextTarget && <NextButton onClick={smoothlyScroll(nextTarget)} />}
+          {nextTarget && (
+            <NextButton
+              onClick={smoothlyScroll(nextTarget)}
+              color={background === 'yellow' ? 'rgb(65, 72, 88)' : 'white'}
+            />
+          )}
         </div>
       </div>
     </section>

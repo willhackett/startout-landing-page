@@ -5,11 +5,12 @@ import s from './NextButton.module.css';
 
 interface NextButtonProps {
   onClick: (e: MouseEvent<HTMLAnchorElement>) => void;
+  color: string;
 }
 
-const NextButton = ({ onClick }: NextButtonProps) => (
+const NextButton = ({ onClick, color }: NextButtonProps) => (
   <a className={s.NextButton} onClick={onClick}>
-    <ArrowDown size="100" color="white" strokeWidth="0.5" />
+    <ArrowDown size="100" color={color} strokeWidth="0.5" />
   </a>
 );
 
