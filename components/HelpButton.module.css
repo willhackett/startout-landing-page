@@ -1,0 +1,10 @@
+.HelpButton {
+  color: white;
+  background: rgb(201, 61, 61);
+  border-radius: 50px;
+  padding: 0.25rem 1.25rem;
+}
+
+.HelpButton:hover {
+  background: rgb(202, 87, 87);
+}

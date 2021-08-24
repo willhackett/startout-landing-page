@@ -49,6 +49,15 @@ const Announcement = () => (
         capital cities.{' '}
       </p>
       <p>
+        We then went on to build a safe space for people of all ages, and had
+        support from some amazing organisation, not least of which was the
+        Australian Unity Foundation who supported StartOut more than once
+        through their amazing member funded foundation with cash donations,
+        volunteers, and awareness. We also received support from thousands of
+        private donors, volunteers, and corporate sponsors who helped us to
+        reach as many people as possible who were feeling alone.
+      </p>
+      <p>
         Since then, more organisations and charities are investing at digital
         solutions, and more mainstream mental health charities are including
         people of diverse sex, sexuality, and gender as an important focus area
@@ -126,7 +135,7 @@ const Announcement = () => (
           their suicide prevention research and tools in other organisations.{' '}
         </li>
         <li>
-          <a href="https://spectrumapp.lgbt/">Spectrum App</a> – Check out the
+          <a href="https://spectrumapp.lgbt/">Spectrum App</a> – Check out the{' '}
           safe spaces near by downloading the app!{' '}
         </li>
       </ul>

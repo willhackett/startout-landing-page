@@ -3,7 +3,14 @@ import Link from 'next/link';
 import ArrowRight from '@geist-ui/react-icons/chevronRight';
 import orderBy from 'lodash.orderby';
 
-import { Section, Logo, Names, Person, SponsorLogos } from '../components';
+import {
+  Section,
+  Logo,
+  Names,
+  Person,
+  SponsorLogos,
+  HelpButton,
+} from '../components';
 
 import s from './index.module.css';
 
@@ -17,12 +24,13 @@ export default function Home({ volunteers, mentors, board }: HomeProps) {
   return (
     <>
       <Section background="image" nextTarget="volunteers">
-        <header>
+        <header className={s.header}>
           <Link href="/">
             <a className={s.logo}>
               <Logo />
             </a>
           </Link>
+          <HelpButton />
         </header>
 
         <div className={s.introduction}>
@@ -56,8 +64,11 @@ export default function Home({ volunteers, mentors, board }: HomeProps) {
       </Section>
       <a id="sponsors" />
       <Section background="red" nextTarget="board">
-        <h1>Thanks, to our 1000+ sponsors</h1>
-        <h3 className={s.mb}>Your ongoing support has made kept us going.</h3>
+        <h1>Thanks, to our amazing sponsors over the years</h1>
+        <h3 className={s.mb}>
+          Your ongoing support has kept us going. To the 1000+ donors, you know
+          who you are and you made a real difference.
+        </h3>
         <SponsorLogos />
       </Section>
       <a id="board" />
