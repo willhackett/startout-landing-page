@@ -51,14 +51,14 @@ export default function Home({ volunteers, mentors, board }: HomeProps) {
 
       <Section background="gray" small nextTarget="volunteers">
         <p className={s.mb}>
-          "StartOut has been a safe place for hundreds of young (and
+          {'"'}StartOut has been a safe place for hundreds of young (and
           not-so-young) people to receive mentorship from our amazing StartOut
           Role Models via our digital platforms, as well as many tens of
           thousands more people we have interacted with at events all around the
           country and through our website and social media channels. We are
           excited to redirect our website and people who need support to
           headspace and qheadspace, who provide support to thousands of young
-          people every year” —{' '}
+          people every year{'"'} —{' '}
           <Link href="/announcement" passHref>
             <a className={s.whiteText}>Read our full announcement.</a>
           </Link>
