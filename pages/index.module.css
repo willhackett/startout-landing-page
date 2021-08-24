@@ -28,6 +28,17 @@
   color: white;
 }
 
+a.whiteText {
+  text-decoration: underline;
+  text-underline-offset: 1px;
+  transition: text-underline-offset ease-in-out 0.2s;
+}
+
+a.whiteText:hover {
+  text-underline-offset: 4px;
+  text-decoration: underline;
+}
+
 .mt {
   margin: 4rem auto;
 }
@@ -57,6 +68,23 @@
 
 .FooterRight {
   text-align: left;
+}
+
+.Center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.HeadspaceButton {
+  padding: 0.5rem 1.75rem;
+  background: #57a716;
+  border-radius: 50px;
+  line-height: 0;
+}
+
+.HeadspaceButton:hover {
+  background: #77be3d;
 }
 
 /* SM */

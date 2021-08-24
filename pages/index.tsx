@@ -10,6 +10,7 @@ import {
   Person,
   SponsorLogos,
   HelpButton,
+  Headspace,
 } from '../components';
 
 import s from './index.module.css';
@@ -23,7 +24,7 @@ interface HomeProps {
 export default function Home({ volunteers, mentors, board }: HomeProps) {
   return (
     <>
-      <Section background="image" nextTarget="volunteers">
+      <Section background="image" nextTarget="details">
         <header className={s.header}>
           <Link href="/">
             <a className={s.logo}>
@@ -44,6 +45,31 @@ export default function Home({ volunteers, mentors, board }: HomeProps) {
               Read our full announcement here <ArrowRight />
             </a>
           </Link>
+        </div>
+      </Section>
+      <a id="details" />
+
+      <Section background="gray" small nextTarget="volunteers">
+        <p className={s.mb}>
+          "StartOut has been a safe place for hundreds of young (and
+          not-so-young) people to receive mentorship from our amazing StartOut
+          Role Models via our digital platforms, as well as many tens of
+          thousands more people we have interacted with at events all around the
+          country and through our website and social media channels. We are
+          excited to redirect our website and people who need support to
+          headspace and qheadspace, who provide support to thousands of young
+          people every year” —{' '}
+          <Link href="/announcement" passHref>
+            <a className={s.whiteText}>Read our full announcement.</a>
+          </Link>
+        </p>
+        <div className={s.Center}>
+          <a
+            href="https://www.headspace.org.au/?ref=startout"
+            className={s.HeadspaceButton}
+          >
+            <Headspace />
+          </a>
         </div>
       </Section>
       <a id="volunteers" />

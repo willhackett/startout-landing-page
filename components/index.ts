@@ -5,3 +5,4 @@ export * from './NextButton';
 export * from './Names';
 export * from './SponsorLogos';
 export * from './HelpButton';
+export * from './Headspace';
