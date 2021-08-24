@@ -3,12 +3,19 @@ import cx from 'classnames';
 import Link from 'next/link';
 import ArrowRight from '@geist-ui/react-icons/chevronRight';
 import { Card } from '@geist-ui/react';
+import orderBy from 'lodash.orderby';
+
+import { Section, Logo, Names, Person } from '../components';
+
 import s from './index.module.css';
-import { Section, Logo, Names } from '../components';
 
-import credits from '../credits.json';
+interface HomeProps {
+  volunteers: Person[];
+  mentors: Person[];
+  board: Person[];
+}
 
-export default function Home() {
+export default function Home({ volunteers, mentors, board }: HomeProps) {
   return (
     <>
       <Section background="image" nextTarget="volunteers">
@@ -39,7 +46,7 @@ export default function Home() {
         <h3 className={s.mb}>
           The managers, designers and engineers that made StartOut work.
         </h3>
-        <Names names={credits.volunteers} />
+        <Names names={volunteers} />
       </Section>
       <a id="rolemodels" />
       <Section background="yellow" nextTarget="sponsors">
@@ -47,7 +54,7 @@ export default function Home() {
         <h3 className={s.mb}>
           The people who worked hard to support those in need.
         </h3>
-        <Names names={credits.mentors} />
+        <Names names={mentors} />
       </Section>
       <a id="sponsors" />
       <Section background="red" nextTarget="board">
@@ -61,7 +68,7 @@ export default function Home() {
         <h3 className={s.mb}>
           The people who brought us together to make an impact.
         </h3>
-        <Names names={credits.board} />
+        <Names names={board} />
       </Section>
       <Section background="blue" small>
         <p>
@@ -72,3 +79,18 @@ export default function Home() {
     </>
   );
 }
+
+export const getStaticProps = () => {
+  const credits = require('../credits.json');
+  const volunteers = orderBy(credits.volunteers, 'name');
+  const mentors = orderBy(credits.mentors, 'name');
+  const board = orderBy(credits.board, 'name');
+
+  return {
+    props: {
+      volunteers,
+      mentors,
+      board,
+    },
+  };
+};
