@@ -50,7 +50,7 @@ const Announcement = () => (
       </p>
       <p>
         We then went on to build a safe space for people of all ages, and had
-        support from some amazing organisation, not least of which was the
+        support from some amazing organisations, not least of which was the
         Australian Unity Foundation who supported StartOut more than once
         through their amazing member funded foundation with cash donations,
         volunteers, and awareness. We also received support from thousands of
@@ -85,7 +85,7 @@ const Announcement = () => (
         </p>
       </blockquote>
       <p>
-        As headspace’s Online Communities are funded solely by private
+        As headspace’s online communities are funded solely by private
         donations, fundraising and philanthropy, this partnership means
         qheadspace will be able to continue to run more programs and further
         support our community. StartOut will direct our remaining funds to
@@ -140,7 +140,7 @@ const Announcement = () => (
         </li>
       </ul>
       <p>
-        Any for many many more great organisations please check out{' '}
+        And for many many more great organisations please check out{' '}
         <a href="https://giveout.org.au/">GiveOutDay</a> and a give generously
         to a great list of organisations doing amazing things in our community.
       </p>

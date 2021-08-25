@@ -68,6 +68,14 @@ export const SponsorLogos = () => (
     </a>
     <a
       className={s.SponsorLogo}
+      href="https://www.nortonrosefulbright.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img src="/norton-rose.webp" alt="Norton Rose Fulbright" />
+    </a>
+    <a
+      className={s.SponsorLogo}
       href="https://www.pwc.com.au/"
       target="_blank"
       rel="noopener noreferrer"
