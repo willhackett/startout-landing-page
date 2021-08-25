@@ -61,7 +61,7 @@ const Announcement = () => (
         Since then, more organisations and charities are investing at digital
         solutions, and more mainstream mental health charities are including
         people of diverse sex, sexuality, and gender as an important focus area
-        of their broader strategies.
+        in their broader strategies.
       </p>
       <p>
         Through our research we identified a number of fantastic programs
@@ -86,7 +86,7 @@ const Announcement = () => (
       </blockquote>
       <p>
         As headspace’s online communities are funded solely by private
-        donations, fundraising and philanthropy, this partnership means
+        donations, fundraising, and philanthropy, this partnership means
         qheadspace will be able to continue to run more programs and further
         support our community. StartOut will direct our remaining funds to
         support this great program and will recommend qheadspace as a place for
@@ -141,8 +141,8 @@ const Announcement = () => (
       </ul>
       <p>
         And for many many more great organisations please check out{' '}
-        <a href="https://giveout.org.au/">GiveOutDay</a> and a give generously
-        to a great list of organisations doing amazing things in our community.
+        <a href="https://giveout.org.au/">GiveOutDay</a> and give generously
+        to a great list of organisations doing some really amazing things in and for our community.
       </p>
       <p>
         Any enquiries can be directed to{' '}
