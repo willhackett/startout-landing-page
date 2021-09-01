@@ -90,7 +90,7 @@ export default function Home({ volunteers, mentors, board }: HomeProps) {
       </Section>
       <a id="sponsors" />
       <Section background="red" nextTarget="board">
-        <h1>Thanks, to our amazing sponsors over the years</h1>
+        <h1>Thanks, to our amazing sponsors</h1>
         <h3 className={s.mb}>
           Your ongoing support has kept us going. To the 1000+ donors, you know
           who you are and you made a real difference.
